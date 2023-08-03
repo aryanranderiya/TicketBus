@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="0dp"
+    android:clipToPadding="false"
+    android:background="@color/white"
+    android:backgroundTint="@color/white">
+
+            <RelativeLayout
+                android:id="@+id/rL1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/template_bus_pass"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:elevation="10dp"
+                >
+
+
+                <TextView
+                    android:id="@+id/txtTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1 \nMonth"
+                    android:layout_marginLeft="40dp"
+                    android:textSize="30sp"
+                    android:textStyle="bold|italic"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/gt_america_standard_bold"/>
+
+<!--                android:shadowDx="3"-->
+<!--                android:shadowDy="3"-->
+<!--                android:shadowColor="@color/dark_grey"-->
+<!--                android:shadowRadius="7"-->
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>

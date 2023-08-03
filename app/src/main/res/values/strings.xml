@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Ticket Bus</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="add_location">Add Location</string>
+    <string name="enter_locality">Enter Locality</string>
+    <string name="locality">Locality</string>
+    <string name="EnterLocationPin">Enter Location Pincode</string>
+    <string name="location_pin">Location Pincode</string>
+    <string name="fromLocation">From Location</string>
+    <string name="toLocation">To Location</string>
+
+    <string name="location">Location</string>
+
+    <string name="update_location">Update Location</string>
+    <string name="save">Save</string>
+
+    <string name="update_bus">Update Bus</string>
+
+
+    <string name="adult">Adult (Age &gt; 12)</string>
+    <string name="child">Child (Age &lt; 12)</string>
+
+
+    //From other
+    <string name="month1">Provides unlimited access to designated bus routes for 30 days.
+Valid from date of purchase until end of 30-day period.
+Benefits: Saves money on transportation costs, convenient for employees who use public transportation regularly.
+Terms: Non-transferable, only valid till the expiry date.</string>
+    <string name="cancel">Cancel</string>
+    <string name="price">Price</string>
+    <string name="submit">Submit</string>
+    <string name="pass_title">Pass Title</string>
+    <string name="validity_text">Validity Text</string>
+    <string name="pass_valid_from">Pass Valid Date:</string>
+    <string name="time">Time</string>
+    <string name="proceed">Proceed</string>
+    <string name="pass_expires_on">Pass Expiry Date:</string>
+    <string name="bus_pass">Bus Pass</string>
+    <string name="go_back">go back</string>
+    <string name="name_of_user">Name of User</string>
+    <string name="benefit_1">Benefit 1</string>
+    <string name="benefits">Benefits</string>
+    <string name="benefit_2">Benefit 2</string>
+    <string name="benefit_3">Benefit 3</string>
+    <string name="benefit_4">Benefit 4</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="benefit_9">Benefit 9</string>
+    <string name="benefit_8">Benefit 8</string>
+    <string name="benefit_7">Benefit 7</string>
+    <string name="benefit_6">Benefit 6</string>
+    <string name="benefit_5">Benefit 5</string>
+    <string name="user_name">User Name</string>
+    <string name="bus_pass_validity">Bus Pass Validity</string>
+    <string name="validity_n_text">Validity\n Text</string>
+    <string name="bus_pass_information">Bus Pass Information</string>
+    <string name="textbuspassinfo">\n• Save Money on Transportation cost!\n\n• Convenient and suited for regular commuters, students, and professionals!\n\n• Unlimited access for unlimited routes!\n\n• Travel for FREE with a one time payment for the specified time duration!\n\n• No need to worry about the hassle of purchasing a ticket!\n\n• Cheaper and Discounted prices for passengers (YOU)!</string>
+    <string name="onemonthpass">1 Month Pass</string>
+    <string name="sixmonthpass">6 Month Pass</string>
+    <string name="oneyearpass">1 Year Pass</string>
+    <string name="threemonthpass">3 Month Pass</string>
+    <string name="your_profile">Your Profile</string>
+    <string name="hey">Hey!</string>
+    <string name="user">User</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="your_bus_pass">Your Bus Pass</string>
+    <string name="change_password">Change Password</string>
+    <string name="change_e_mail">Change E-Mail</string>
+    <string name="logout">Logout</string>
+    <string name="your_wallet">Your Wallet</string>
+    <string name="enter_current_password">Enter Current Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="enter_new_password">Enter New Password</string>
+    <string name="remove_profile_picture">Remove Profile Picture</string>
+    <string name="update_profile_picture">Update Profile Picture</string>
+    <string name="remove_pfp_confirmation">Are you sure you want to remove your profile picture?</string>
+    <string name="days_left">Days Left</string>
+    <string name="valid_date">Valid Date</string>
+    <string name="expiry_date">Expiry Date</string>
+    <string name="your_ticketbus_pass">Your TicketBus Pass</string>
+
+
+    <!-- Title -->
+    <string name="first_slide_title">Bus Pass</string>
+    <string name="second_slide_title">E-Wallet</string>
+    <string name="third_slide_title">Map</string>
+    <string name="fourth_slide_title">Ticket Booking</string>
+
+    <!-- Description -->
+    <string name="first_slide_desc">Enjoy hassle-free boarding with our bus pass feature. Choose from a range of options based on duration and price tier, and travel unlimited distances without having to buy a ticket every time.</string>
+    <string name="second_slide_desc">Say goodbye to cash and cards with our secure e-wallet feature. Add funds to your account and pay for your bus rides directly from your phone with just a few taps.</string>
+    <string name="third_slide_desc">Navigate your route with ease using our interactive map feature. Search for nearby stations and centers, get real-time updates on bus routes, and plan your journey ahead of time.</string>
+    <string name="fourth_slide_desc">Book your tickets quickly and easily with our paperless, online ticket booking feature. Purchase a ticket and scan it at the bus station from your phone for a hassle-free experience.</string>
+    <string name="enter_confirm_password">Enter Confirm Password</string>
+
+    <string name="valid_n_from">Valid\nFrom:</string>
+    <string name="valid_n_till">Valid\nTill:</string>
+    <string name="accessToken">sk.eyJ1IjoiZGhydXZnb2hpbCIsImEiOiJjbGdnMXRid3gwN2NjM290MW5pb3k4ZjhsIn0.u9BCMmy1CYch4YbMj6VEYw</string>
+    <string name="clicked_marker">Clicked Marker</string>
+
+</resources>

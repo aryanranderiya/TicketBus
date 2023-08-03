@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:background="#00000000">
+
+    <LinearLayout
+        android:id="@+id/ticketItemHolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#00000000">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardElevation="0dp"
+            app:cardBackgroundColor="#00000000">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                app:backgroundTint="#00000000"
+                android:background="@drawable/ticket_id_left_layout_bg">
+
+                <TextView
+                    android:id="@+id/layout_ticketID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="TicketId"
+                    android:rotation="-90"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#232323"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="0dp"
+            app:cardBackgroundColor="#00000000">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:background="@drawable/ticket_right_layout_bg"
+                android:paddingHorizontal="2dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginTop="5dp">
+
+                        <TextView
+                            android:id="@+id/layout_fromLocation"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="From"
+                            android:padding="10dp"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:gravity="left"
+                            android:textColor="@color/black"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/icon_arrow_forwards"/>
+
+                        <TextView
+                            android:id="@+id/layout_toLocation"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="To"
+                            android:padding="10dp"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:textColor="@color/black"
+                            android:gravity="right"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginTop="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Adult"
+                                android:paddingHorizontal="10dp"
+                                android:textSize="15sp"
+                                android:textStyle="normal"
+                                android:textColor="@color/red_ticket"
+                                android:gravity="left"
+                                />
+
+                            <TextView
+                                android:id="@+id/layout_adultCount"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="5"
+
+                                android:textSize="15sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/red_ticket"
+                                android:gravity="left"
+                                />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Child"
+                                android:textColor="@color/red_ticket"
+                                android:textSize="15sp"
+                                android:textStyle="normal"
+                                android:gravity="right"/>
+
+                            <TextView
+                                android:id="@+id/layout_childCount"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="5"
+                                android:textColor="@color/red_ticket"
+                                android:textSize="15sp"
+                                android:textStyle="bold"
+                                android:paddingHorizontal="10dp"
+                                android:gravity="right"/>
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Total Passenger"
+                            android:paddingHorizontal="10dp"
+                            android:textSize="15sp"
+                            android:textStyle="normal"
+                            android:textColor="@color/red_ticket"
+                            android:gravity="left"
+                            />
+
+                        <TextView
+                            android:id="@+id/layout_passengerCount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="5"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/red_ticket"
+                            android:paddingHorizontal="10dp"
+                            android:gravity="center_vertical"
+                            />
+
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFCFCA"
+                    android:paddingHorizontal="25dp"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Price"
+                        android:padding="5dp"
+                        android:textSize="13sp"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:gravity="left"/>
+
+                    <TextView
+                        android:id="@+id/layout_ticketPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5"
+                        android:padding="5dp"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:layout_weight="1"
+                        android:gravity="right"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>

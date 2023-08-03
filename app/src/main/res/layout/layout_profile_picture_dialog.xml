@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/main_button_bg_white"
+    android:layout_margin="10dp"
+    android:elevation="8dp"
+    android:padding="15dp">
+
+    <Button
+        android:id="@+id/btnUploadProfilePic"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Upload New Profile Picture"
+        android:textAllCaps="false"
+        android:textColor="@color/buspass_blue"
+        android:textSize="17sp"
+        android:drawableTint="@color/buspass_blue"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F5D8D8D8"
+        android:layout_marginHorizontal="20dp"/>
+
+    <Button
+        android:id="@+id/btnRemoveProfilePicture"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Remove Current Profile Picture"
+        android:textAllCaps="false"
+        android:textColor="@color/backup_main_700"
+        android:textSize="17sp"
+        android:drawableTint="@color/backup_main_700"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F5D8D8D8"
+        android:layout_marginHorizontal="20dp"/>
+
+    <Button
+        android:id="@+id/btnCancel"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Cancel"
+        android:textAllCaps="false"
+        android:textColor="@color/main_500"
+        android:textSize="17sp"
+        android:textAlignment="center"
+        />
+</LinearLayout>

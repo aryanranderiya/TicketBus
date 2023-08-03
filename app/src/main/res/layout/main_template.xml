@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <!--    TextView-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="70dp"
+        android:text="TEXT text"
+        android:textColor="@color/main_500"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        >
+
+    </TextView>
+
+    <!--Input Field !-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:hint="Name"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="25sp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="25dp"
+        android:elevation="8dp"
+        android:textColorHint="#0E1625"
+        app:hintTextColor="#252525"
+        app:boxStrokeColor="#252525"
+        app:boxStrokeErrorColor="@color/color_700"
+        app:errorTextColor="@color/color_700"
+        app:boxStrokeWidth="2dp"
+        app:boxCornerRadiusBottomEnd="10dp"
+        app:boxCornerRadiusBottomStart="10dp"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="10dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#0E1625"
+            android:drawableLeft="@drawable/icon_user"
+            android:drawablePadding="10dp"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Register"
+        style="@style/button_style"
+        android:theme="@style/button_style"
+        />
+
+</LinearLayout>

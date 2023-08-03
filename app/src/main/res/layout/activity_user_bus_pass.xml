@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".UserBusPass"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/user_bus_pass_gradient_bg">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_back_user_pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="1.5dp"
+                android:background="@null"
+                android:contentDescription="@string/go_back"
+                android:gravity="end"
+                android:maxWidth="24dp"
+                android:maxHeight="24dp"
+                android:src="@drawable/icon_back_card"
+                app:tint="@color/main_500" />
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout android:id="@+id/busPassParentViewLinear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@drawable/user_bus_pass_gradient_bg"
+        >
+
+        <TextView
+            android:id="@+id/passtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Your Bus Pass"
+            android:textColor="@color/main_500"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="85dp"/>
+
+
+        <com.wajahatkarim3.easyflipview.EasyFlipView
+            android:id="@+id/flipView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:autoFlipBack="false"
+            app:flipDuration="1000"
+            app:flipEnabled="true"
+            app:flipFrom="right"
+            app:flipOnTouch="false"
+            app:flipType="horizontal"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginVertical="20dp"
+            >
+
+            <include layout="@layout/layout_flashcard_back"/>
+
+            <include layout="@layout/layout_flashcard_front"/>
+
+        </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+    </LinearLayout>
+
+</LinearLayout>

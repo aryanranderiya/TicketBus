@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet_wallet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bottom_sheet_bg"
+    android:paddingBottom="280dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_bar"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verify your card pin"
+            android:layout_margin="20dp"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"/>
+
+
+        <com.chaos.view.PinView
+            android:id="@+id/verify_card_pin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/PinWidget.PinView"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:inputType="number"
+            android:cursorVisible="true"
+            android:minHeight="48dp"
+            android:textColor="@color/main_500"
+            app:cursorColor="@color/main_500"
+            app:itemCount="4"
+            app:itemHeight="48dp"
+            app:itemRadius="10dp"
+            app:itemWidth="48dp"
+            app:lineColor="@color/main_500"
+            tools:ignore="SpeakableTextPresentCheck"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/main_500"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_continueVerify"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Continue"
+                android:textAllCaps="false"
+                android:textSize="17sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/main_500"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:background="@drawable/main_button_bg"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/trials"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:visibility="invisible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trials Left : "
+                android:textSize="17sp"
+                android:fontFamily="@font/gt_america_standard_regular"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/txt_trialsLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:textSize="17sp"
+                android:fontFamily="@font/gt_america_standard_bold"
+                android:textColor="@color/backup_main_500"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

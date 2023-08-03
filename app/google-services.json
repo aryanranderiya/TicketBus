@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1090811634042",
+    "firebase_url": "https://ticketbus-78b10-default-rtdb.firebaseio.com",
+    "project_id": "ticketbus-78b10",
+    "storage_bucket": "ticketbus-78b10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090811634042:android:af7a018dd4dc77bfb2f6c3",
+        "android_client_info": {
+          "package_name": "com.example.ticketbus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090811634042-2tlm91qh3kfp4n2danfc560ksgoaioe5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsdqfxqeNyKWeM0VO3il1oxL7CR5ixCDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1090811634042-2tlm91qh3kfp4n2danfc560ksgoaioe5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090811634042:android:aab343331417a30fb2f6c3",
+        "android_client_info": {
+          "package_name": "com.example.ticketbusadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090811634042-2tlm91qh3kfp4n2danfc560ksgoaioe5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsdqfxqeNyKWeM0VO3il1oxL7CR5ixCDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1090811634042-2tlm91qh3kfp4n2danfc560ksgoaioe5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

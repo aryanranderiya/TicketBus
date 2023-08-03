@@ -1,0 +1,123 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ActivityMap"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <com.mapbox.mapboxsdk.maps.MapView
+            android:id="@+id/mapMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        android:gravity="top|start"-->
+    <!--        android:layout_marginTop="30dp"-->
+    <!--        android:layout_marginStart="30dp"-->
+    <!--        android:layout_marginEnd="10dp"-->
+    <!--        >-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/btnBusStopsEnable"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginHorizontal="10dp"-->
+    <!--            android:background="@drawable/bg_button_map_rounded"-->
+    <!--            android:drawableTint="@color/white"-->
+    <!--            android:text="Bus Centers"-->
+    <!--            android:textAllCaps="false"-->
+    <!--            android:textColor="#FFFFFF"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:textStyle="bold"-->
+    <!--            android:paddingHorizontal="20dp"-->
+    <!--            android:textSize="13sp"-->
+    <!--            app:backgroundTint="@color/blue_main"/>-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/btnBusCentersEnable"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_gravity="start"-->
+    <!--            android:layout_marginHorizontal="10dp"-->
+    <!--            android:background="@drawable/bg_button_map_rounded"-->
+    <!--            android:drawableTint="@color/white"-->
+    <!--            android:text="Bus Stops"-->
+    <!--            android:textAllCaps="false"-->
+    <!--            android:textColor="#FFFFFF"-->
+    <!--            android:textSize="13sp"-->
+    <!--            android:paddingHorizontal="20dp"-->
+    <!--            android:layout_weight="1"-->
+    <!--            app:backgroundTint="@color/main_500"/>-->
+
+    <!--    </LinearLayout>-->
+
+    <LinearLayout
+        android:id="@+id/mapLinearLayoutTop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="top|end"
+        android:layout_marginTop="30dp"
+        >
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/mapFilter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_tune"
+            android:backgroundTint="@color/blue_main"
+            android:tint="@color/white"
+            android:contentDescription="Go To Current Location"
+            android:background="@drawable/bg_map_circlebtn"
+            android:padding="10dp"
+            android:layout_marginEnd="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mapLinearLayoutBottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom|end"
+        android:layout_marginBottom="50dp">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/navigateCurrentLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/bg_map_circlebtn"
+            android:backgroundTint="@color/blue_main"
+            android:contentDescription="Go To Current Location"
+            android:padding="10dp"
+            android:src="@drawable/icon_my_location_v2" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btnMapDirections"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_directions"
+            android:tint="@color/white"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:contentDescription="Go To Current Location"
+            android:background="@drawable/bg_map_squarebtn"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

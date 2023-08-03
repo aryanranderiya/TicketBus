@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    >
+
+    <LinearLayout
+        android:id="@+id/parentviewbottomsheetmap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg_bottomsheet_rounded_grey"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-60dp">
+            <ImageView
+                android:id="@+id/bottomsheetscrolldown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@null"
+                android:contentDescription="@string/go_back"
+                android:gravity="center"
+                android:maxWidth="24dp"
+                android:maxHeight="24dp"
+                android:src="@drawable/icon_minimize"
+                app:tint="@android:color/darker_gray"/>
+        </androidx.appcompat.widget.Toolbar>
+
+        <LinearLayout
+            android:id="@+id/searchLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <EditText
+                android:id="@+id/searchLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingVertical="10dp"
+                android:background="@drawable/bg_search_location"
+                android:hint="Search Location"
+                android:textColorHint="@color/white"
+                android:singleLine="true"
+                android:paddingStart="20dp"
+                />
+
+            <ImageButton
+                android:id="@+id/searchBtn"
+                android:layout_width="60dp"
+                android:layout_height="43dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/bg_circle_outline_v2"
+                android:contentDescription="Go To Current Location"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="-1dp"
+                android:src="@drawable/icon_search"
+                app:tint="@color/white" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/txt_busStationCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fetching ID..."
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginTop="20dp"
+            />
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingVertical="10dp"
+        >
+
+        <TextView
+            android:id="@+id/txt_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fetching Time..."
+            android:textColor="@color/blue_main"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            />
+
+        <TextView
+            android:id="@+id/txt_distance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(1 km)"
+            android:textColor="@color/grey"
+            android:paddingStart="10sp"
+            android:textSize="25sp"
+            />
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fetching Address..."
+            android:textColor="@color/blue_main"
+            android:textSize="20sp"
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+            android:id="@+id/txt_coordinates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fetching Coordinates..."
+            android:textColor="@color/grey"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp"
+            />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+<!--        <Button-->
+<!--            android:id="@+id/btnStartNavigation"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_gravity="start"-->
+<!--            android:layout_marginBottom="20dp"-->
+<!--            android:background="@drawable/bg_button_profile"-->
+<!--            android:drawableLeft="@drawable/icon_navigation"-->
+<!--            android:drawableTint="@color/white"-->
+<!--            android:text="Start"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:layout_marginEnd="10dp"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="17sp"-->
+<!--            app:backgroundTint="@color/blue_main" />-->
+
+        <Button
+            android:id="@+id/btnStartDirections"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="start"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bg_button_profile"
+            android:drawableLeft="@drawable/icon_directions"
+            android:drawableTint="@color/white"
+            android:text="Directions"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            app:backgroundTint="#26FFFFFF" />
+
+    </LinearLayout>
+</LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

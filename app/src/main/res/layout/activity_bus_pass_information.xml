@@ -1,0 +1,255 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp"
+    android:background="@color/main_500">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnBusPassBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="1.5dp"
+                android:background="@null"
+                android:contentDescription="@string/go_back"
+                android:gravity="end"
+                android:maxWidth="24dp"
+                android:maxHeight="24dp"
+                android:src="@drawable/icon_back_card"
+                app:tint="@color/white" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="60dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/bus_pass"
+                android:textColor="@color/main_500"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="5dp"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/bpcolourbackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:background="@drawable/bg_buspass_gradient"
+            >
+
+            <TextView
+                android:id="@+id/passtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/pass_title"
+                android:textColor="@color/white"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="85dp"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="10dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="40dp"
+            app:cardBackgroundColor="#ffffff"
+            app:cardElevation="5dp"
+            android:layout_marginTop="140dp"
+            >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginBottom="160dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="15dp"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp">
+
+                        <TextView
+                            android:id="@+id/txtoriginalprice"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="10dp"
+                            android:drawablePadding="4dp"
+                            android:text="Original Price: "
+                            android:textColor="@color/backup_main_700"
+                            android:textSize="15sp"
+                            android:layout_weight="1"
+                            android:layout_marginEnd="40dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/discountedprice"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawablePadding="4dp"
+                            android:layout_marginStart="-45dp"
+                            android:text="@string/price"
+                            android:textColor="@color/backup_main_700"
+                            android:textSize="15sp"
+                            android:layout_weight="1"
+                            android:paddingStart="5dp"
+                            android:paddingEnd="5dp"
+                            />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/price"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="7dp"
+                        android:drawablePadding="5dp"
+                        android:text="₹ Price"
+                        android:textColor="@color/black"
+                        android:textSize="40sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/validperiod"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/validity_text"
+                        android:textSize="17sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_vertical"
+                        app:drawableStartCompat="@drawable/icon_time_validity"
+                        android:drawablePadding="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginStart="5dp"/>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:strokeColor="@color/main_500"
+                        app:cardCornerRadius="20dp"
+                        app:strokeWidth="1dp"
+                        app:cardElevation="0dp"
+                        app:cardPreventCornerOverlap="true"
+                        app:cardUseCompatPadding="true"
+                        app:cardBackgroundColor="@color/white">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:drawablePadding="10dp"
+                                android:text="@string/bus_pass_information"
+                                android:textColor="#000"
+                                android:textSize="15sp"
+                                android:textStyle="bold"
+                                android:layout_marginTop="10dp"
+                                app:drawableStartCompat="@drawable/icon_info"
+                                android:gravity="start"
+                                android:drawableTint="@color/black"
+                                android:paddingHorizontal="50dp"/>
+
+                            <TextView
+                                android:id="@+id/multiLineTextView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/textbuspassinfo"
+                                android:maxLines="20"
+                                android:textSize="12sp"
+                                android:padding="10dp"
+                                android:lineSpacingExtra="3dp"
+                                android:textColor="@color/black"
+                                />
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+
+                </LinearLayout>
+            </ScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="70dp"
+                >
+
+                <Button
+                    android:id="@+id/btnproceed"
+                    android:background="@drawable/bg_buspass_gradient"
+                    app:backgroundTint="@null"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/proceed"
+                    android:textSize="20sp"
+                    android:paddingVertical="10dp"
+                    android:textColor="@color/white"
+                    android:layout_margin="20dp"
+                    android:drawableEnd="@drawable/icon_arrow_next"
+                    android:drawableTint="@color/white"
+                    android:textAlignment="center"
+                    android:paddingStart="65dp"
+                    android:paddingEnd="30dp"
+                    />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

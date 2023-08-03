@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WalletDetails"
+    android:orientation="vertical"
+    android:background="@drawable/card_gradient_bg">
+
+    <TextView
+        android:id="@+id/card_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/card_ui_2"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/gt_america_standard_bold"
+        android:layout_gravity="center"
+        android:text="Enter new card details"
+        android:textColor="@color/main_500"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter name on card"
+        android:textSize="17sp"
+        android:fontFamily="@font/gt_america_standard_bold"
+        android:textColor="@color/main_500"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="25dp"
+        android:gravity="left"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edt_CardName"
+            style="@style/textInputLayout_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="25dp"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/icon_profile24"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/gt_america_standard_regular"
+                android:inputType="textEmailAddress"
+                android:textColor="#0E1625" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter card pin"
+            android:textSize="17sp"
+            android:fontFamily="@font/gt_america_standard_bold"
+            android:textColor="@color/main_500"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="25dp"
+            android:gravity="left"/>
+
+        <com.chaos.view.PinView
+            android:id="@+id/card_pin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/PinWidget.PinView"
+            android:layout_gravity="left"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:inputType="number"
+            android:cursorVisible="true"
+            android:minHeight="48dp"
+            android:textColor="@color/main_500"
+            app:cursorColor="@color/main_500"
+            app:itemCount="4"
+            app:itemHeight="48dp"
+            app:itemRadius="10dp"
+            app:itemWidth="48dp"
+            app:lineColor="@color/main_500"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm card pin"
+            android:textSize="17sp"
+            android:fontFamily="@font/gt_america_standard_bold"
+            android:textColor="@color/main_500"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="25dp"
+            android:gravity="left"/>
+
+        <com.chaos.view.PinView
+            android:id="@+id/confirm_card_pin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/PinWidget.PinView"
+            android:layout_gravity="left"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:inputType="number"
+            android:cursorVisible="true"
+            android:minHeight="48dp"
+            android:textColor="@color/main_500"
+            app:cursorColor="@color/main_500"
+            app:itemCount="4"
+            app:itemHeight="48dp"
+            app:itemRadius="10dp"
+            app:itemWidth="48dp"
+            app:lineColor="@color/main_500"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_cardCreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="30dp"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="10dp"
+        android:text="Create Card"
+        android:textSize="16sp"
+        android:background="@drawable/main_button_bg"/>
+
+</LinearLayout>

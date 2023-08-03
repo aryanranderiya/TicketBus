@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateWallet"
+    android:orientation="vertical"
+    android:background="@drawable/card_gradient_bg">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@null"
+        app:navigationIcon="@drawable/ic_back_black"
+        app:title=""
+        />
+
+    <ImageView
+        android:id="@+id/card_ui_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ui_card2"
+        android:layout_marginTop="150dp" />
+
+    <ImageView
+        android:id="@+id/card_ui_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/ui_card1"
+        android:layout_alignParentRight="true"
+        />
+
+
+    <TextView
+        android:id="@+id/card_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/card_ui_2"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/gt_america_standard_bold"
+        android:gravity="left"
+        android:text="Create your own \ncard now"
+        android:textColor="@color/main_500"
+        android:textSize="35sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/card_text1"
+        android:fontFamily="@font/gt_america_standard_regular"
+        android:gravity="left"
+        android:text="Book your tickets in easy way"
+        android:textColor="@color/main_500"
+        android:textSize="17sp"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:id="@+id/btn_card_continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="10dp"
+        android:text="Continue"
+
+        android:drawableEnd="@drawable/icon_arrow_forward_continue"
+        android:textSize="16sp"
+        android:background="@drawable/main_button_bg"/>
+
+
+
+</RelativeLayout>
