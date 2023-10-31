@@ -16,19 +16,24 @@ Transform your daily commute with our user-friendly digital Public Transportatio
 
 ## Screenshots
 
-![TicketBus (FINAL Presentation) pptx-51](https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/5abca2f0-88c6-4e42-a599-d248e5c3fb52)
-![TicketBus (FINAL Presentation) pptx-52](https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/732058b8-cf37-405a-8a16-c4900390aa02)
-![TicketBus (FINAL Presentation) pptx-53](https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/28f29059-b236-411b-b336-115fbc36b0ab)
-![TicketBus (FINAL Presentation) pptx-54](https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/24d4d160-056a-42ee-b5f2-679bba94b35f)
-![TicketBus (FINAL Presentation) pptx-55](https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/a41348e6-7c7e-4b23-a93a-a78dbed878a0)
-![TicketBus (FINAL Presentation) pptx-56](https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/f820ab96-ce95-486d-ab8b-d67c18dbb31e)
-![TicketBus (FINAL Presentation) pptx-57](https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/74503b60-9e74-4197-b1f7-a112784a42de)
-![TicketBus (FINAL Presentation) pptx-58](https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/df87fe04-484e-4b67-9b4a-1a9ee7f9462d)
-![TicketBus (FINAL Presentation) pptx-59](https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/16918d56-59b6-4d2b-b79e-8b589e77a214)
-![TicketBus (FINAL Presentation) pptx-60](https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/4597c106-93fa-49ed-a27b-22a32ed769e7)
-![TicketBus (FINAL Presentation) pptx-61](https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/f0512992-b063-4870-b06d-d3bc683243c6)
-![TicketBus (FINAL Presentation) pptx-62](https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/c082d143-c6d4-4c50-9432-b073856bf8b0)
-![TicketBus (FINAL Presentation) pptx-63](https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/70a21e63-95f8-446a-80d6-f80a32b8e7dc)
+### TicketBus
+![SplashScreen](https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/9ad63de7-1db5-45a1-917a-0c77d3453ecd)
+![Onboarding](https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/60a655d3-a872-42ae-a582-d350bd20bf24)
+![Login_Signup](https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/24f949a4-75eb-4475-8907-9c0a41c7cf92)
+![Dashboard](https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/a1534b3d-efea-4a4a-9670-e16f3a570c27)
+![TicketBooking](https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/50f2ac9c-8bcc-4e6f-b117-10161aab7092)
+![Map](https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/5b3e3ac6-41ec-42e5-938d-5399987e267d)
+![Bus_Pass](https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/b9e2dc33-7bf3-4781-a54d-db1aeed339e3)
+![User_Profile](https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/adb49db0-56e7-42f6-a3ed-f4c8a0d38899)
+
+
+
+### TicketBus - Admin
+![AdminPanel](https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/e3e4ecdd-73e0-4f58-9315-da96105402d8)
+![AdminPanel_Location](https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/3c9c8fbc-e17d-4409-8f60-b6636f8ba229)
+![AdminPanel_BusPass](https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/61aaad9d-c9d9-46e0-a46d-586ca109fd1f)![AdminPanel_Users](https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/b2502005-62e0-42b8-bf73-113a6f9cd532)
+![AdminPanel_Bus](https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/6f3b63a6-f935-4b3d-8322-326c7b84d202)
+
 
 ## Acknowledgments
 
