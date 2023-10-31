@@ -16,8 +16,6 @@ Transform your daily commute with our user-friendly digital Public Transportatio
 
 ## Screenshots
 
-### TicketBus
-
 <!--
 ![SplashScreen](https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/9ad63de7-1db5-45a1-917a-0c77d3453ecd)
 <br>
@@ -36,23 +34,48 @@ Transform your daily commute with our user-friendly digital Public Transportatio
 ![AdminPanel_BusPass](https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/61aaad9d-c9d9-46e0-a46d-586ca109fd1f)![AdminPanel_Users](https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/b2502005-62e0-42b8-bf73-113a6f9cd532)
 ![AdminPanel_Bus](https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/6f3b63a6-f935-4b3d-8322-326c7b84d202)
 -->
+### TicketBus
 
+#### Splash Screen
 <img src="https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/9ad63de7-1db5-45a1-917a-0c77d3453ecd" alt="SplashScreen" style="height: 400px;">
+
+#### Onboarding
 <img src="https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/60a655d3-a872-42ae-a582-d350bd20bf24" alt="Onboarding" style="height: 400px;">
+
+#### Login & Signup
 <img src="https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/24f949a4-75eb-4475-8907-9c0a41c7cf92" alt="Login_Signup" style="height: 400px;">
+
+#### Dashboard
 <img src="https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/a1534b3d-efea-4a4a-9670-e16f3a570c27" alt="Dashboard" style="height: 400px;">
+
+#### Ticket Booking
 <img src="https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/50f2ac9c-8bcc-4e6f-b117-10161aab7092" alt="TicketBooking" style="height: 400px;">
+
+#### Map
 <img src="https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/5b3e3ac6-41ec-42e5-938d-5399987e267d" alt="Map" style="height: 400px;">
+
+#### Bus Pass
 <img src="https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/b9e2dc33-7bf3-4781-a54d-db1aeed339e3" alt="Bus_Pass" style="height: 400px;">
+
+#### User Profile
 <img src="https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/adb49db0-56e7-42f6-a3ed-f4c8a0d38899" alt="User_Profile" style="height: 400px;">
 
 ### TicketBus - Admin
-<img src="https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/e3e4ecdd-73e0-4f58-9315-da96105402d8" alt="AdminPanel" style="height: 400px;">
-<img src="https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/3c9c8fbc-e17d-4409-8f60-b6636f8ba229" alt="AdminPanel_Location" style="height: 400px;">
-<img src="https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/61aaad9d-c9d9-46e0-a46d-586ca109fd1f" alt="AdminPanel_BusPass" style="height: 400px;">
-<img src="https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/b2502005-62e0-42b8-bf73-113a6f9cd532" alt="AdminPanel_Users" style="height: 400px;">
-<img src="https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/6f3b63a6-f935-4b3d-8322-326c7b84d202" alt="AdminPanel_Bus" style="height: 400px;">
 
+#### Admin Panel
+<img src="https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/e3e4ecdd-73e0-4f58-9315-da96105402d8" alt="AdminPanel" style="height: 400px;">
+
+#### Admin Panel: Location
+<img src="https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/3c9c8fbc-e17d-4409-8f60-b6636f8ba229" alt="AdminPanel_Location" style="height: 400px;">
+
+#### Admin Panel: BusPass
+<img src="https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/61aaad9d-c9d9-46e0-a46d-586ca109fd1f" alt="AdminPanel_BusPass" style="height: 400px;">
+
+#### Admin Panel: Users
+<img src="https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/b2502005-62e0-42b8-bf73-113a6f9cd532" alt="AdminPanel_Users" style="height: 400px;">
+
+#### Admin Panel: Bus
+<img src="https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/6f3b63a6-f935-4b3d-8322-326c7b84d202" alt="AdminPanel_Bus" style="height: 400px;">
 
 ## Acknowledgments
 
