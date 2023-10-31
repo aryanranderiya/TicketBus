@@ -18,15 +18,6 @@ Transform your daily commute with our user-friendly digital Public Transportatio
 
 ### TicketBus
 
-<img src="https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/9ad63de7-1db5-45a1-917a-0c77d3453ecd" alt="SplashScreen" style="height: 500px;">
-<br>
-<img src="https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/60a655d3-a872-42ae-a582-d350bd20bf24" alt="Onboarding" style="height: 500px;">
-<br>
-<img src="https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/24f949a4-75eb-4475-8907-9c0a41c7cf92" alt="Login_Signup" style="height: 500px;">
-<br>
-<img src="https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/a1534b3d-efea-4a4a-9670-e16f3a570c27" alt="Dashboard" style="height: 500px;">
-
-
 <!--
 ![SplashScreen](https://github.com/aryanranderiya/TicketBus-Android/assets/64796509/9ad63de7-1db5-45a1-917a-0c77d3453ecd)
 <br>
